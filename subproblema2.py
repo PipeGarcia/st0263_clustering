@@ -6,7 +6,7 @@ from time import time
 
 #Ruta del dataset
 #pattern = "/home/csuazaca/Desktop/prueba/*.txt"
-pattern = "/home/pipe/Desktop/prueba/*.txt"
+pattern = "/home/pipe/Downloads/Proyecto03/dataset/*.txt"
 
 #Palabras que no tienen sentido por si solas
 stop_words = ["i","me","my","myself","we","our","ours","ourselves","you","your","yours","yourself",

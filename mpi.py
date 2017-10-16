@@ -8,7 +8,7 @@ comm = MPI.COMM_WORLD
 
 #Ruta del dataset
 #pattern = "/home/csuazaca/Desktop/prueba/*.txt"
-pattern = "/home/pipe/Desktop/prueba/*.txt"
+pattern = "/home/pipe/Downloads/Proyecto03/dataset/*.txt"
 
 #Variables Globales
 k = 3
