@@ -141,7 +141,7 @@ print "Distancia Promedio"
 print distAverage
 
 #Hallar aleatoriamente los centroides iniciales
-k = 3
+k = randint(8,13)
 for i in range(k):
         a = randint(1,distAverage.__len__()-1)
         if i == 0:
@@ -167,7 +167,7 @@ for i in range(20):
     Clusters = distCent(k,distAverage.__len__(), Clusters, centroides)
     aux = centroides
     centroides = kmeans(Clusters, k, distAverage.__len__())
-    print "estos son los nuevos centroidesroides"
+    print "estos son los nuevos centroides"
     for i in range(k):
         print centroides[i]
     if aux == centroides:

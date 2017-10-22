@@ -11,7 +11,7 @@ comm = MPI.COMM_WORLD
 pattern = "/home/pipe/Downloads/Proyecto03/dataset/*.txt"
 
 #Variables Globales
-k = 3
+k = randint(8,13)
 centroides = []
 distAverage = []
 distances = []
